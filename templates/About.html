@@ -1,0 +1,229 @@
+<!--Created by Sridhar Gudumalla
+/*700734079*/-->
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name='viewport' content="width=device-width,initial-scale=1.0">
+
+		<title>SriVisuals|About Me</title>
+	</head>
+
+
+	<style>
+
+		*
+		{
+			margin:0px;
+			padding:0px;
+			box-sizing: border-box;
+			font-family:"Lucida Sans",sans-serif;
+		}
+
+		.hero
+		{
+			background:white;
+			overflow: hidden;
+		}
+
+		.heading h1
+		{
+			color:black;
+			font-size:55px;
+			text-align: center;
+			margin-top:35px;
+			font-family: Franklin Gothic;
+		}
+
+		.container
+		{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			width: 90%;
+			margin: 65px auto;
+		}
+
+		.hero-content
+		{
+			flex:1;
+			width:1000px;
+			margin:0px 25px;
+			animation:fadeInUp 2s ease;
+			font-family: Lucida Sans;
+
+		}
+
+		.hero-image
+		{
+			flex:1;
+			width:500px;
+			margin:auto;
+			animation:fadeInRight 2s ease;
+			
+		}
+
+		img
+		{
+			width:100%;
+			heigth:auto;
+			border-radius:10px;
+			
+
+
+		}
+
+		.hero-content h2
+		{
+			font-size: 38px;
+			margin-bottom: 20px;
+			color:#ff6347;
+			font-family: Verdana;
+		}
+
+		.hero-content p
+		{
+			font-size:22px;
+			line-height:1.5;
+			margin-border:40px;
+			color:black;
+			font-family: Lucida Calligraphy;
+
+		}
+
+		.hero-content button
+		{
+			display:inline-block;
+			background-color: #ff6347;
+			color:#fff;
+			padding:12px 24px;
+			border-radius:5px;
+			font-size:20px;
+			border:none;
+			cursor:pointer;
+			transition: 0.3s ease;
+		}
+
+		.hero-content button:hover
+		{
+			background-color: green;
+			transform:scale(1.2);
+
+		}
+
+		@media screen and (max-width: 768px)
+		{
+			.heading h1
+			{
+				font-size: 45px;
+				margin-top:30px;
+
+
+			}
+
+			.hero
+			{
+				margin:0px;
+			}
+
+			.container
+			{
+				width:100%;
+				flex-direction:column;
+				margin:0px;
+				padding:0px 40px;
+			}
+
+			.hero-content
+			{
+				width:100%;
+				margin:35px 0px;
+			}
+
+			.hero-content h2
+			{
+				font-size:30px;
+			}
+
+			.hero-content p
+			{
+				font-size:18px;
+				margin-bottom:20px;
+			}
+
+			.hero-content button
+			{
+				font-size:16px;
+				padding:8px 16px;
+			}
+
+			.hero-image
+			{
+				width:100%;
+
+			}
+		}
+	@keyframes fadeInUp
+	{
+		0%
+		{
+			opacity:0;
+			transform: translateY(50px);
+		}
+		100%
+		{
+			opacity:1;
+			transform:translateY(0px);
+		}
+	}
+
+	@keyframes fadeInUp
+	{
+		0%
+		{
+			opacity:0;
+			transform: translateY(-50px);
+		}
+		100%
+		{
+			opacity:1;
+			transform:translateY(0px);
+		}
+	}
+	</style>
+
+
+	<body>
+	<section class="hero">
+		<div class="heading">
+			<h1>About Me</h1>
+		</div>
+		<div class="container">
+			<div class="hero-content">
+				<h2>Welcome To My Website</h2>
+				<p>Hi, I'm Sridhar Gundumalla, a web developer specializing in creating
+				 stunning photography website using HTML, CSS, Node.js, Python, and AWS.
+				 I'm passionate about blending technology and art to help  photographers
+				showcase their work beautifully online.<br> Let's bring your vision to life!<br><br></p>
+				<a href="/">Home</a>
+				<button class="cta-button">Home</button>
+				</a>
+				<div class="hero-image">
+					<img src="{{ url_for('static', filename='images/about.jpg') }}">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+</html>
