@@ -19,7 +19,7 @@ The data tier stores and manages data used by the application.
 DynamoDB, a NoSQL database, is utilized for storing user registration data and post information.
 S3 is employed for secure image storage.
 
-============================================================================================<br>
+===========================================================================<br>
 **Key Features:**
 
 **User Registration and Authentication:**
