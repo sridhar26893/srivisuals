@@ -18,7 +18,8 @@ DynamoDB operations, S3 interactions, and other backend tasks are part of the ap
 The data tier stores and manages data used by the application.
 DynamoDB, a NoSQL database, is utilized for storing user registration data and post information.
 S3 is employed for secure image storage.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+===============================================================================================================================
 **Key Features:**
 
 **User Registration and Authentication:**
