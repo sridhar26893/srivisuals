@@ -26,7 +26,6 @@ S3 is employed for secure image storage.
 Users can securely register with a unique username, valid email, and a password hashed using bcrypt for storage in DynamoDB.
 AWS WAF rules enhance security against potential threats in incoming traffic.
 User Login:
-
 Secure user login using registered email or username and password, with successful login redirecting users to their profile page.
 
 **Profile Page:**
@@ -36,8 +35,8 @@ Image Upload and Post Creation:
 
 Users can securely upload images, with posts created in DynamoDB and image storage in an Amazon S3 bucket.
 AWS WAF ensures the security of the application against potential web-based attacks.
-Image Gallery:
 
+Image Gallery:
 The home page features a gallery of images fetched from the S3 bucket, delivered securely and quickly through Amazon CloudFront.
 
 **Post Interaction:**
