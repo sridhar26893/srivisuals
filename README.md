@@ -20,8 +20,7 @@ DynamoDB, a NoSQL database, is utilized for storing user registration data and p
 S3 is employed for secure image storage.
 Key Features:
 
-**User Registration and Authentication:
-**
+**User Registration and Authentication:**
 Users can securely register with a unique username, valid email, and a password hashed using bcrypt for storage in DynamoDB.
 AWS WAF rules enhance security against potential threats in incoming traffic.
 User Login:
