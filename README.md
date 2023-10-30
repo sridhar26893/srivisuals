@@ -1,5 +1,5 @@
 # srivisuals
-SriVisuals Website
+**_SriVisuals Website_**
 
 This project is a secure two-tier web application developed using Flask, a Python web framework, and various AWS services. The application is designed to run on an Amazon EC2 instance, ensuring scalability and reliability. Security measures include the use of AWS WAF (Web Application Firewall) rules to filter and monitor incoming traffic. The frontend is built using HTML, CSS, and JavaScript to create visually appealing and responsive webpages.
 
@@ -19,7 +19,7 @@ The data tier stores and manages data used by the application.
 DynamoDB, a NoSQL database, is utilized for storing user registration data and post information.
 S3 is employed for secure image storage.
 
-===============================================================================================================================
+============================================================================================<br>
 **Key Features:**
 
 **User Registration and Authentication:**
